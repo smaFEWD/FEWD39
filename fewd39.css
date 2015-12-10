@@ -1,0 +1,197 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  text-align: left;
+}
+
+
+/* Typography */
+/* ------------------------ */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #F3EFE3;
+  color: #232323;
+}
+
+
+/* Layout */
+/* ------------------------ */
+section:not(.two-column) {
+  padding: 24px;
+}
+.two-column {
+  display: flex;
+}
+.two-column > div {
+  flex: 1;
+  padding: 24px;
+}
+.two-column > div:first-child {
+  padding-right: 12px;
+}
+.two-column > div:last-child {
+  padding-left: 12px;
+}
+img.right {
+  float: right;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+
+/* Header */
+/* ------------------------ */
+header {
+  background: #F8615C;
+  color: #FFFFFF;
+}
+footer {
+  background: #FFD3AD;
+  border-top: 2px solid #DF8636;
+}
+
+
+/* Lists */
+/* ------------------------ */
+ol li {
+  margin-left: 24px;
+}
+li:not(:first-child) {
+  margin-top: 8px;
+}
+ul.bulleted {
+  list-style-type: disc;
+}
+
+
+/* Tables */
+/* ------------------------ */
+table {
+  margin-top: 10px;
+}
+tr:nth-child(odd) {
+  background: #FAF9F4;
+}
+th,
+td {
+  padding: 4px 16px 4px 12px;
+}
+
+
+/* Headings */
+/* ------------------------ */
+h1 {
+  padding: 12px 24px;
+}
+h1 a,
+h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+h1 a:hover,
+h1 a:active {
+  color: #F6CBCE;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 22px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+h3 {
+  font-size: 16px;
+}
+h3:not(:first-child) {
+  margin-top: 12px;
+}
+h4 {
+  margin-top: 5px;
+}
+
+
+/* Links */
+/* ------------------------ */
+a,
+a:visited {
+  color: #2686CF;
+}
+a:hover,
+a:active {
+  color: #CF2631;
+}
+
+
+/* Buttons */
+/* ------------------------ */
+button {
+  background: #FFD3AD;
+  border: 1px solid #DF8636;
+  border-radius: 3px; 
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+/* Text */
+/* ------------------------ */
+ol {
+  margin-top: 10px;
+}
+p ~ p {
+  margin-top: 12px;
+}
+code {
+  display: inline-block;
+  font-family: monospace;
+  padding: 4px 12px;
+  margin: 4px 0;
+  border: 1px solid grey;
+}
+
+
+/* Student Directory */
+/* ------------------------ */
+.directory table {
+  width: 100%;
+}
+
+
+/* Objects */
+/* ------------------------ */
+.object-bubble {
+  position: relative;
+  height: 130px;
+}
+.object-bubble img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+}
+.object-bubble span {
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+}
+.object-bubble span.new {
+  color: red;
+}
+
+.document-query-selector { left: 245px; top: 15px; }
+.document-create-element { left: 245px; top: 50px; }
+
+.element-object img         { top: 15px;}
+.element-text-content       { left: 235px; top: 0px;}
+.element-class-name         { left: 235px; top: 30px;} 
+.element-add-event-listener { left: 235px; top: 65px;}
+.element-append-child       { left: 235px; top: 100px;}
