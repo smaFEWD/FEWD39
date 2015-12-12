@@ -1,0 +1,21 @@
+.container {
+  overflow:hidden;
+}
+
+
+.col-6 {
+  float:left;
+  width:50%;
+  height:100px;
+  box-sizing:border-box;
+  border:#000 1px solid;
+}
+
+/*solution for 3 column*/
+.col-4 {
+  float:left;
+  width:33.333333%;
+  border:#000 1px solid;
+  height:100px;
+  box-sizing:border-box;
+}
