@@ -1,5 +1,5 @@
 .container {
-  overflow:hidden;
+/*  overflow:hidden;*/
 }
 
 
@@ -15,7 +15,7 @@
 .col-4 {
   float:left;
   width:33.333333%;
-  border:#000 1px solid;
+  border:red 1px solid;
   height:100px;
   box-sizing:border-box;
 }
