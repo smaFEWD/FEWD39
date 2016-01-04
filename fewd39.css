@@ -39,6 +39,7 @@ section:not(.two-column) {
 }
 .two-column > div:first-child {
   padding-right: 12px;
+  flex-grow: 2;
 }
 .two-column > div:last-child {
   padding-left: 12px;
